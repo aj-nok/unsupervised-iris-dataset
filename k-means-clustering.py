@@ -23,3 +23,36 @@ plt.xlabel('Sepal Length')
 plt.ylabel('Sepal Width')
 plt.scatter(x_ax, y_ax, c=predictions)
 plt.show()
+
+x_ax = df['SepalLengthCm']  
+y_ax = df['PetalLengthCm']  
+plt.title('Scatter plot Sepal Length vs Petal Length')
+plt.xlabel('Sepal Length')
+plt.ylabel('Petal Length')
+plt.scatter(x_ax, y_ax, c=predictions)
+plt.show()
+
+x_ax = df['SepalLengthCm']  
+y_ax = df['PetalWidthCm']  
+plt.title('Scatter plot Sepal Length vs Petal Width')
+plt.xlabel('Sepal Length')
+plt.ylabel('Petal Width')
+plt.scatter(x_ax, y_ax, c=predictions)
+plt.show()
+
+x_ax = df['PetalLengthCm']  
+y_ax = df['PetalWidthCm']  
+plt.title('Scatter plot Petal Length vs Petal Width
+plt.xlabel('Petal Length')
+plt.ylabel('Petal Width')
+plt.scatter(x_ax, y_ax, c=predictions)
+plt.show()
+
+x_ax = df['PetalLengthCm']  
+y_ax = df['SepalWidthCm']  
+plt.title('Scatter plot Petal Length vs Sepal Width')
+plt.xlabel('Petal Length')
+plt.ylabel('Sepal Width')
+plt.scatter(x_ax, y_ax, c=predictions)
+plt.show()
+
