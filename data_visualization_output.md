@@ -21,6 +21,8 @@
   <img align="left" width="420" height="300" src="images/k2-means_petlen_vs_sepwid.png"> 
   <img align="right" width="420" height="300" src="images/k3-means_petlen_vs_sepwid.png">
   
+  <img align="center" width="500" height="500" src="images/pca_data.png">
+  
   
  
 
