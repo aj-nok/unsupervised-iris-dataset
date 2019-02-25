@@ -23,9 +23,9 @@
   
   <img align="center" width="500" height="400" src="images/pca_data.png">
   
-  <img align="center" width="500" height="400" src="images/gui_1.PNG">
+  <img align="center" width="500" height="300" src="images/gui_1.PNG">
     
-   <img align="center" width="500" height="400" src="images/gui_2.PNG">
+   <img align="center" width="500" height="350" src="images/gui_2.PNG">
   
   
  
