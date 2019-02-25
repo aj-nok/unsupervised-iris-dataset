@@ -42,7 +42,6 @@ class mclass:
         petlen = float(self.data3.get())
         petwid = float(self.data4.get())  
         d= np.array([[seplen,sepwid,petlen,petwid]])
-#        d= np.array([seplen,sepwid,petlen,petwid])
         columns_new = ['SepalLengthCm', 'SepalWidthCm','PetalLengthCm','PetalWidthCm']
         ndf=pd.DataFrame(d, columns=columns_new) 
 #        print(ndf)
@@ -61,26 +60,13 @@ class mclass:
         predictions = model.predict(df_new)
         predictions=predictions[:150]
 #        print(predictions[:150])
-        
-
-#        plt.title('Scatter plot pc1 vs pc2')
-#        plt.xlabel('pc1')
-#        plt.ylabel('pc2')
-#        plt.xticks(())
-#        plt.yticks(())
-#        plt.scatter(x_ax, y_ax, c=predictions)
-       
-        fig = Figure(figsize=(6,6))
+               
+        fig = Figure(figsize=(6,6))                         #Plotting graph in GUI
         a = fig.add_subplot(111)
-#        x=-2.264542
-#        y=0.505704
         x_ax = df_new['pc1'].head(150)  
         y_ax = df_new['pc2'].head(150)
         x_n=df_new['pc1'].tail(1)
         y_n=df_new['pc2'].tail(1)
-#        a.title('Scatter plot pc1 vs pc2')
-#        a.xticks(())
-#        a.yticks(())
         a.scatter(x_ax, y_ax, c=predictions)
         a.scatter(x_n, y_n, c='red')
         canvas = FigureCanvasTkAgg(fig, master=self.window)
