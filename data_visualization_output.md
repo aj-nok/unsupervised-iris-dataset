@@ -23,6 +23,10 @@
   
   <img align="center" width="500" height="400" src="images/pca_data.png">
   
+  <img align="center" width="500" height="400" src="images/gui_1.png">
+    
+   <img align="center" width="500" height="400" src="images/gui_2.png">
+  
   
  
 
