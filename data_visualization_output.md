@@ -25,7 +25,7 @@
   
   <img align="center" width="500" height="300" src="images/gui_1.PNG">
     
-   <img align="center" width="700" height="500" src="images/gui_2.PNG">
+   <img align="center" width="800" height="600" src="images/gui_2.PNG">
   
   
  
