@@ -29,15 +29,15 @@
     
   <img align="center" width="800" height="600" src="images/gui_2.PNG">
   
-  <img align="center" width="800" height="800" src="images/hierarchy_ward.png">
+  <img align="center" width="600" height="1000" src="images/hierarchy_ward.png">
   
-  <img align="center" width="800" height="800" src="images/hierarchy_single.png">
+  <img align="center" width="600" height="1000" src="images/hierarchy_single.png">
   
-  <img align="center" width="800" height="800" src="images/hierarchy_average.png">
+  <img align="center" width="600" height="1000" src="images/hierarchy_average.png">
   
-  <img align="center" width="800" height="800" src="images/hierarchy_complete.png">
+  <img align="center" width="600" height="1000" src="images/hierarchy_complete.png">
 
-  <img align="center" width="800" height="800" src="images/hierarchy_centroid.png">
+  <img align="center" width="600" height="1000" src="images/hierarchy_centroid.png">
   
   
  
