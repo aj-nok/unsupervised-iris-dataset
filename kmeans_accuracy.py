@@ -2,7 +2,7 @@
 """
 Created on Mon Mar  4 11:15:38 2019
 
-@author: ajas
+@author: aj-nok
 """
 
 # -*- coding: utf-8 -*-
