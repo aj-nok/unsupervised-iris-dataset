@@ -39,6 +39,8 @@
 
   <img align="center" width="1100" height="500" src="images/hierarchy_centroid.png">
   
+   <img align="center" width="400" height="400" src="images/accuracy.png">
+  
   
  
 
